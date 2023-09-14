@@ -75,14 +75,34 @@
         </tfoot>
     </table>
     </div>
+    <hr>
     <section>
         <form action="#" method="get" target="_blank">
-                <h1>Título</h1>
-                <p>Formulário</p>
+                <h1>Formulário</h1>
                 <fieldset>
-                    <legend>Descrição</legend>
                     <p>
-                        <input type="text">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nomes" placeholder="Seu nome" required>
+                    </p>
+                    <p>
+                        <label for="dev">Sou um desenvolvedor:</label>
+                        <input type="checkbox" id="dev" name="dev" value="sim">
+                    </p>
+                    <p>
+                        Gênero:
+                        <br>
+                        <label for="feminino">Fêminino</label>
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                        <br>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <br>
+                        <label for="outros">outros</label>
+                        <input type="radio" id="outros" name="genero" value="outros">
+                    </p>
+                    <p>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Enviar</button>
                     </p>
                 </fieldset>
         </form>
