@@ -117,12 +117,21 @@
                         <input type="datetime-local" id="datetime" name="datetime" value="2023-09-18T20:00">
                     </p>
                     <p>
-                        <label for="email">Data e horário:</label>
-                        <input type="email" id="email" name="email" placeholde="Ex: email@email.com">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Ex: email@email.com" required>
                     </p>
                     <p>
                         <label for="cor">Cor desejada:</label>
                         <input type="color" id="cor" name="cor" value="#003d66">
+                    </p>
+                    <hr>
+                    <p>
+                        <label for="file">Sua foto:</label>
+                        <input type="file" id="file" name="file" accept=".png,.jpg,image/*" multiple>
+                    </p>
+                    <p>
+                        <label for="number">Número escolhido:</label>
+                        <input type="number" id="number" name="number" min="0" max="100" step="2" placeholder="0">
                     </p>
                     <p>
                         <button type="reset">Reset</button>
