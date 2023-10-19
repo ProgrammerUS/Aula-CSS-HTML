@@ -1,0 +1,7 @@
+.main-content h1.heading {
+    background: rgba(60, 84, 128, 0.897);
+}
+
+p.papai, p.mamae, p.titia {
+    font-style: italic;
+}
