@@ -5,3 +5,7 @@
 p.papai, p.mamae, p.titia {
     font-style: italic;
 }
+
+.pai > .filha > .filha {
+    color: red;
+}
