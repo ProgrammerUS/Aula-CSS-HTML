@@ -10,3 +10,19 @@ p.papai, p.mamae, p.titia {
     color: rgba(60, 84, 128, 0.897);
 }
 
+
+.paizao .lorem~p {
+    color: rgba(60, 84, 128, 0.897);
+}
+
+.dad .um~.dois {
+    color: red;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.mom .um + .dois {
+    color: red;
+}
