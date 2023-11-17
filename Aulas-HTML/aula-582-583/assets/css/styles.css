@@ -26,3 +26,15 @@ body {
 .mom .um + .dois {
     color: red;
 }
+
+[data-meu-atributo~="valor2"] {
+    color: blue;
+}
+
+[data-meu-atributo$="c"] {
+    color: red;
+}
+
+[data-meu-atributo*="valor-w valor-"] {
+    color: green;
+}
