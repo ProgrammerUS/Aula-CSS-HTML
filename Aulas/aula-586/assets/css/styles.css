@@ -23,3 +23,19 @@ a:active {
 a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+p:not(.meio) {
+    color: blue;
+}
+
+.api1 .api2 li:nth-child(2) {
+    background: red;
+}
+
+.second {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-size: 10px;
+}
