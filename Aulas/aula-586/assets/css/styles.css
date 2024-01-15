@@ -24,7 +24,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-p:not(.meio) {
+p.paragrafo-only:not(.meio) {
     color: blue;
 }
 
@@ -32,11 +32,11 @@ p:not(.meio) {
     background: red;
 }
 
-ul li:nth-child(even) {
+ul.api3 li:nth-child(even) {
     background-color: rebeccapurple;
 }
 
-ul:not(.api2) li:nth-child(odd) {
+ul.api3 li:nth-child(odd) {
     background-color: turquoise;
 }
 
@@ -46,4 +46,40 @@ ul:not(.api2) li:nth-child(odd) {
 
 body {
     font-size: 10px;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul.list-one li::after {
+    content: ' - ';
+}
+
+ul.list-two li::before {
+    content: ' - ';
+}
+p.period-one::first-letter {
+    font-size: 45px;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+h4 {
+    margin-top: 5px;
+}
+h1, h4 {
+    text-align: center;
+}
+p.period-two::first-line {
+    color: blue;
+}
+p::selection {
+    background: black;
+    color: white;
+}
+::placeholder {
+    color: red;
 }
