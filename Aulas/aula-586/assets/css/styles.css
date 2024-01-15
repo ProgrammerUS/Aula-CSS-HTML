@@ -32,8 +32,16 @@ p:not(.meio) {
     background: red;
 }
 
-.second {
-    background-color: rgba(0, 0, 0, 0.2);
+ul li:nth-child(even) {
+    background-color: rebeccapurple;
+}
+
+ul:not(.api2) li:nth-child(odd) {
+    background-color: turquoise;
+}
+
+.pseudo {
+    font-style: italic;
 }
 
 body {
