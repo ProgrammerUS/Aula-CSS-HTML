@@ -1,2 +1,2 @@
 # Aula-CSS-HTML
- Aula introdutória sobre HTML e CSS, para adquirir conhecimento e obter maior empenho no conteúdo principal, JavaScript e TypeScript.
+ Aulas introdutória sobre HTML e CSS, para adquirir conhecimento base e obter maior empenho no conteúdo principal, JavaScript e TypeScript.
