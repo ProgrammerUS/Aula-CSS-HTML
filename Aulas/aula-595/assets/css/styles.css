@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+#bloco-um {
+    background-color: turquoise;
+}
+#bloco-dois {
+    background-color: greenyellow;
+}
+#bloco-tres {
+    background-color:red;
+}
+#bloco-quatro {
+    background-color: yellow;
+}
+.bloco {
+    height: 100vh;
+}
+.links {
+    padding: 20px;
+    background: white;
+    font-size: 15px;
+    font-family: monospace;
+}
+a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 2vmin;
+}
+p {
+    font-size: 2vmax;
+}
