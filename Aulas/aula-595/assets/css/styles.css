@@ -38,4 +38,9 @@ a {
 }
 p {
     font-size: 2vmax;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration: overline;
+    text-shadow: 2px 2px 2px teal;
+    text-transform: uppercase;
 }
