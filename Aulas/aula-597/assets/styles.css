@@ -1,0 +1,21 @@
+.filha1, .filha2, .filha3 {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.filha1 {
+    background: red;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.filha2 {
+    background: yellow;
+    float: left;
+}
+.filha3 {
+    background: green;
+    position: fixed;
+    right: 50px;
+}
