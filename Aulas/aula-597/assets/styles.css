@@ -6,8 +6,8 @@
 
 .filha1 {
     background: red;
-    top: 50%;
-    left: 50%;
+    top: 33%;
+    left: 33%;
     position: absolute;
 }
 .filha2 {
@@ -17,5 +17,5 @@
 .filha3 {
     background: green;
     position: fixed;
-    right: 50px;
+    bottom: 0px;
 }
