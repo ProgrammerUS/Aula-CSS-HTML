@@ -1,11 +1,13 @@
-body {
+.grid {
     align-items: center;
     text-align: center;
 }
+
 h1 {
     font-size: 72px;
     font-family: sans-serif;
 }
+
 .pai {
     display: grid;
     grid-gap: 10px;
@@ -13,6 +15,7 @@ h1 {
     grid-template-rows: 150px 150px 150px;
     justify-content: center;
 }
+
 .pai > div {
     padding: 10px;
     background-color: aquamarine;
@@ -25,6 +28,13 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
+
+.menu {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 480px) {
     .pai {
         display: grid;
