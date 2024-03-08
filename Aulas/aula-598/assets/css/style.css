@@ -29,12 +29,6 @@ h1 {
     font-weight: bold;
 }
 
-.menu {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 @media (max-width: 480px) {
     .pai {
         display: grid;
@@ -73,3 +67,26 @@ h1 {
         font-weight: bold;
     }
 }
+h1 {
+    background-color: rgba(0, 0, 0, 0.174);
+}
+.menu {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 25px;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+/* Ver como fixar o menu no topo na página, ver como linkar o topo, no topo na página, alterar IDS e CLASSES por conta do footer *\ 
