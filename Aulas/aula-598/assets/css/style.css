@@ -2,7 +2,9 @@
     align-items: center;
     text-align: center;
 }
-
+body {
+    padding-top: 20px;
+}
 h1 {
     font-size: 72px;
     font-family: sans-serif;
@@ -29,10 +31,33 @@ h1 {
     font-weight: bold;
 }
 
+h1 {
+    background-color: rgba(0, 0, 0, 0.174);
+}
 .menu {
     text-align: center;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.2);
+    word-spacing: 25px;
+    position: fixed;
+    top: 0;
+}
+.menu2 {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 25px;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 20px 0;
+    width: 100%;
 }
 
 @media (max-width: 480px) {
@@ -72,4 +97,7 @@ h1 {
         font-size: 24px;
         font-weight: bold;
     }
+}
+#topo {
+    padding-bottom: 5px;
 }
