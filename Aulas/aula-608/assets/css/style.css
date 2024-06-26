@@ -33,3 +33,29 @@ a {
     padding: 10px;
     background: tomato;
 }
+
+.text1 {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.grid1 :nth-child(n + 4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p {
+    font-family: Arial;
+    align-content: center;
+}
