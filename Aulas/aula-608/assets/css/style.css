@@ -34,6 +34,19 @@ a {
     background: tomato;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
 .text1 {
     padding: 20px;
     font-size: 50px;
@@ -44,10 +57,10 @@ a {
 .grid1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 100%;
-    margin: 0 auto;
+    align-items: center;
     grid-gap: 20px;
     justify-content: center;
+    max-width: auto;
 }
 
 .grid1 :nth-child(n + 4) {
@@ -59,3 +72,4 @@ p {
     font-family: Arial;
     align-content: center;
 }
+
