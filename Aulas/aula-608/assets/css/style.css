@@ -5,7 +5,9 @@ body, ul, li, p {
     font-size: 1.2rem;
     font-family: Arial;
 }
-
+body {
+    background-color: #ffedd5;
+}
 .header {
     background: #1d1e28;
     display: flex;
@@ -13,6 +15,10 @@ body, ul, li, p {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+h1 {
+    color: black;
 }
 
 a {
@@ -46,7 +52,6 @@ img {
     margin: 0 auto;
 }
 
-
 .text1 {
     padding: 20px;
     font-size: 50px;
@@ -60,16 +65,23 @@ img {
     align-items: center;
     grid-gap: 20px;
     justify-content: center;
-    max-width: auto;
 }
 
-.grid1 :nth-child(n + 4) {
+.grid1 > :nth-child(1) {
+    grid-column: span 3;
+    grid-area: span 1;
+    width: 400px;
+}
+
+.grid1 > img:nth-child(n+2) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 300px;
 }
 
 p {
+    display: flex;
     font-family: Arial;
-    align-content: center;
+    justify-content: flex-end;
+    color: black;
 }
-
