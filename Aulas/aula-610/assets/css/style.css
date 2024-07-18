@@ -1,55 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-a {
-    text-decoration: none;
-}
-html {
-    font-size: 62.5%;
-}
-:root {
-    --white-color: #FFFFFF;
-    --gap: 3rem;
-    --primary-color: #0A1128;
-    --light-gray-color: #EEEEEE;
-}
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-    font-size: 8rem;
-}
-
-h2 {
-    font-size: 5rem;
-}
-
-h3 {
-    font-size: 4rem;
-}
-
-h4 {
-    font-size: 3rem;
-}
-
-h5 {
-    font-size: 2rem;
-}
-
-h6 {
-    font-size: 1.7rem;
-}
 
 .main-bg {
     background-image: url('../img/back.svg');
-    background-size: auto;
+    background-size: center;
     background-position: center center;
     color: var(--white-color);
     min-height: 100vh;
@@ -57,16 +9,20 @@ h6 {
 .main-content {
     margin: 0 auto;
     padding: var(--gap);
+}   
+.menu h1 a {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    font-weight: bolder;
 }
-
 .menu  {
     background-color: white;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 1px solid var(--light-gray-color);
+    border-bottom: 2px solid var(--light-gray-color);
 }
 
 .menu-content {
@@ -80,10 +36,12 @@ h6 {
     display: flex;
     list-style: none;
 }
-.menu ul li a {
+.menu a {
     display: block;
     padding: 2rem;
     font-size: 1.8rem;
+    color: #0A1128;
+    position: relative;
 }
 
 .menu h1 {
@@ -94,6 +52,39 @@ h6 {
     color: black;
 }
 
-.seis {
-    margin-top: auto;
+.menu ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background-color: rgba(0, 1, 88, 0.781);
+    transition: all 200ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+    width: 50px;
+    left: 25%;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap);
+    align-items: center;
+    height: 70vh;
+}
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 1.5em;
+    justify-content: center;
+}
+.header-text {
+        margin-bottom: 5rem;
+}
+.intro-img img {
+    max-width: 100%;
+    height: auto;
 }
