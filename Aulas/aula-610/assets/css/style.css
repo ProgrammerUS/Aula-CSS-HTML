@@ -90,3 +90,6 @@
     max-width: 100%;
     height: auto;
 }
+aside {
+    text-transform: uppercase;
+}
