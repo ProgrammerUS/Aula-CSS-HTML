@@ -37,6 +37,7 @@
     display: flex;
     list-style: none;
 }
+
 .menu a {
     display: block;
     padding: 2rem;
