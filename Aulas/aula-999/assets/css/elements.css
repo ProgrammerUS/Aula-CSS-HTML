@@ -1,0 +1,24 @@
+:root {
+    --gap: 2rem;
+}
+
+p {
+    color: white;
+    font-weight: 300;
+}
+h4 {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1em;
+}
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+span {
+    color: #1d4ed8;
+    
+}
