@@ -1,7 +1,9 @@
 :root {
     --gap: 2rem;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 p {
     color: white;
     font-weight: 300;
