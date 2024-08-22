@@ -159,7 +159,10 @@ header .image::before{
 .grid > div > p {
     margin: 30px;
 }
-
+.projects h1 {
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
 .projects {
     margin-top: 5rem;
     text-align: center;
@@ -169,6 +172,7 @@ header .image::before{
     justify-items: center;
 }
 
+/* 
 
 .imgs {
     display: grid;
@@ -192,9 +196,17 @@ header .image::before{
 .imgs > div > img:hover {
         align-items: center;
         background-color: #1d4fd821;
-        padding-bottom: 15vh;
         border: #1d4fd846 solid ;
         border-radius: 1.2rem;
-        align-items: center;
+        align-items: center;      
+        margin-top: -3px;
 }
 
+.imgs > div:hover {
+    padding-bottom: 15vh;
+    align-items: center;
+    background-color: #1d4fd821;
+    border: #1d4fd846 solid ;
+    border-radius: 1.2rem;
+    align-items: center;
+} */
