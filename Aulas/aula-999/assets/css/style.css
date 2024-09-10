@@ -159,28 +159,25 @@ header .image::before{
 .grid > div > p {
     margin: 30px;
 }
-.projects h1 {
+.projectos {
     margin-bottom: 1em;
     margin-top: 3em;
-}
-.projects {
-    margin-top: 5rem;
     text-align: center;
-    margin-bottom: 1em;
+}
+
+.projects {
+    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     justify-items: center;
 }
 
-/* 
+
 
 .imgs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    min-width: 50vw;
-    max-width: 50vw;
-    gap: 20px;
-    
+    display: flex;
+    gap: 4rem;
 }
 
 .imgs > div {
@@ -191,22 +188,31 @@ header .image::before{
 .imgs img {
     border-radius: 1rem;
     border: #1d4fd846 solid ;
+    
 }
 
 .imgs > div > img:hover {
         align-items: center;
         background-color: #1d4fd821;
-        border: #1d4fd846 solid ;
+        border: #1d4fd846 solid;
         border-radius: 1.2rem;
         align-items: center;      
         margin-top: -3px;
 }
 
 .imgs > div:hover {
+    cursor: pointer; 
+    background-color: #0631a756;
+    box-shadow: 0px 0px 25px 5px #ffffff09;
+    transition: 1000ms;
     padding-bottom: 15vh;
     align-items: center;
     background-color: #1d4fd821;
-    border: #1d4fd846 solid ;
+    border: #1d4fd846 solid;
     border-radius: 1.2rem;
     align-items: center;
-} */
+}
+
+.projects {
+    margin-bottom: 20vh;
+}
