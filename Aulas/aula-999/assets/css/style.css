@@ -24,7 +24,7 @@ body{
     margin: 0 5vh 0 5vh;
 }
 
-nav{
+nav {
     max-width: auto;
     margin: auto;
     padding: 3rem 1rem;
@@ -187,17 +187,7 @@ header .image::before{
 
 .imgs img {
     border-radius: 1rem;
-    border: #1d4fd846 solid ;
-    
-}
-
-.imgs > div > img:hover {
-        align-items: center;
-        background-color: #1d4fd821;
-        border: #1d4fd846 solid;
-        border-radius: 1.2rem;
-        align-items: center;      
-        margin-top: -3px;
+    border: #1d4fd846 solid;   
 }
 
 .imgs > div:hover {
