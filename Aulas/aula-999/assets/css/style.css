@@ -199,11 +199,17 @@ header .image::before{
     border: #1d4fd846 solid;   
 }
 
+.imgs img:hover {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
 .imgs > div:hover {
     cursor: pointer; 
     background-color: #0631a756;
     box-shadow: 0px 0px 25px 5px #ffffff09;
-    transition: 1000ms;
+    transition: all 1000ms;
     padding-bottom: 15vh;
     align-items: center;
     background-color: #1d4fd821;
@@ -212,15 +218,8 @@ header .image::before{
     align-items: center;
 }
 
-.imgs > div:hover {
-    cursor: pointer; 
-    background-color: #0631a756;
-    box-shadow: 0px 0px 25px 5px #ffffff09;
-    transition: 1000ms;
-    padding-bottom: 15vh;
-    align-items: center;
-    background-color: #1d4fd821;
-    border: #1d4fd846 solid;
-    border-radius: 1.2rem;
-    align-items: center;
+.imgs > div:hover:after {
+    transition: all 500ms ease-in;
+    justify-self: left;
+    color: white;
 }
