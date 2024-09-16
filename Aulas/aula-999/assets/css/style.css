@@ -205,6 +205,9 @@ header .image::before{
     border-top: none;
 }
 
+.imgs div:hover {
+    margin-bottom: 0;
+}
 .imgs > div:hover {
     cursor: pointer; 
     background-color: #0631a756;
