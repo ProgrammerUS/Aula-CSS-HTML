@@ -3,8 +3,12 @@
 a {
     text-decoration: none;
     color: #2f61eb;
-
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -68,6 +72,7 @@ button {
 }
 
 button:hover {
+
     transition: all 150ms ease-in;
     cursor: pointer;
     background-color: #032faa;
@@ -79,3 +84,30 @@ button:hover {
 p {
     color: white;
 }
+
+.input input {
+    position: relative;
+    background: none;
+    outline: none;
+    border: rgb(0, 0, 0, 0.4) solid 0.2rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+i {
+    position: absolute;
+    transform: translateY(50%);
+    left: 55%;
+}
+.input label {
+    position: absolute;
+    color: white;
+    transform: translateY(50%);
+    left: 43.7%;
+}
+
+.input input:focus~label,
+.input input:valid~label {
+    top: 37.5%;
+    font-size: 0.8em;
+}
+
