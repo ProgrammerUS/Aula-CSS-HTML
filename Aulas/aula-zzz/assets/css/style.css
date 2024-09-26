@@ -105,9 +105,21 @@ i {
     left: 43.7%;
 }
 
-.input input:focus~label,
-.input input:valid~label {
+.input .ma1:focus~label,
+.input .ma1:valid~label {
     top: 37.5%;
     font-size: 0.8em;
+    transition: all 100ms ease-in-out;
+}
+
+.input .ma2:focus~label,
+.input .ma2:valid~label {
+    top: 43.5%;
+    font-size: 0.8em;
+    transition: all 100ms ease-in-out;
+}
+
+input {
+    color: white;
 }
 
